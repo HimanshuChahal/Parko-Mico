@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="10dp"
+    android:orientation="vertical"
+    tools:context=".Auth.OTPActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/back_drawable"
+        app:tint="@android:color/background_dark"
+        android:padding="5dp"
+        android:onClick="backOnClick"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginHorizontal="15dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_dark"
+        android:text="OTP Verification"
+        android:singleLine="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="15dp"
+        android:text="Enter the code sent to you at \n"
+        android:id="@+id/phoneNumberViewTextView"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="15dp"
+        android:weightSum="6"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_marginEnd="2dp"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:inputType="number"
+            android:imeOptions="actionNext"
+            android:gravity="center"
+            android:id="@+id/otp1EditText"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_marginHorizontal="2dp"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:inputType="number"
+            android:imeOptions="actionNext"
+            android:gravity="center"
+            android:id="@+id/otp2EditText"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_marginHorizontal="2dp"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:inputType="number"
+            android:imeOptions="actionNext"
+            android:gravity="center"
+            android:id="@+id/otp3EditText"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_marginHorizontal="2dp"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:inputType="number"
+            android:imeOptions="actionNext"
+            android:gravity="center"
+            android:id="@+id/otp4EditText"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_marginHorizontal="2dp"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:inputType="number"
+            android:imeOptions="actionNext"
+            android:gravity="center"
+            android:id="@+id/otp5EditText"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_marginStart="2dp"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:inputType="number"
+            android:imeOptions="actionNext"
+            android:gravity="center"
+            android:id="@+id/otp6EditText"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/auth_button_drawable"
+        android:backgroundTint="@color/color_yellow"
+        android:text="@string/submit"
+        android:textSize="16sp"
+        android:onClick="submitOnClick"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="end"
+            android:textSize="14sp"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginEnd="5dp"
+            android:singleLine="true"
+            android:text="@string/resend_otp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textSize="14sp"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginStart="5dp"
+            android:singleLine="true"
+            android:id="@+id/otpTimingTextView"/>
+
+    </LinearLayout>
+
+</LinearLayout>

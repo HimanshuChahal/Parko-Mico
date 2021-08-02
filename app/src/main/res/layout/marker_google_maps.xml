@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="35dp"
+        android:layout_height="45dp"
+        android:background="@drawable/parco_mico_location_image">
+
+        <TextView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:paddingVertical="5dp"
+            android:background="@drawable/circular_drawable"
+            android:textSize="10sp"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp"
+            android:text="R10"
+            android:textColor="@android:color/background_dark"
+            android:singleLine="true"
+            android:id="@+id/locationCostTextView"/>
+
+    </RelativeLayout>
+
+    <!--<RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:background="@drawable/marker_drawable">
+
+        <TextView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:padding="5dp"
+            android:background="@drawable/circular_drawable"
+            android:textSize="7sp"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:text="10"
+            android:textColor="@android:color/background_dark"
+            android:singleLine="true"
+            android:id="@+id/locationCostTextView"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/down_arrow_drawable"
+            android:backgroundTint="@color/color_yellow"
+            android:rotation="90"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/down_arrow"
+            android:backgroundTint="@color/color_yellow"
+            android:rotation="0"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/down_arrow_2"
+            android:backgroundTint="@color/color_yellow"
+            android:rotation="0"/>
+
+    </RelativeLayout>-->
+
+</LinearLayout>

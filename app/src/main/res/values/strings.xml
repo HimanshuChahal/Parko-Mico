@@ -1,0 +1,42 @@
+<resources>
+
+    <string name="app_name">Parko Mico</string>
+
+    <string name="sign_in">Sign In</string>
+
+    <string name="sign_up">Sign Up</string>
+
+    <string name="phone_number">Phone number</string>
+
+    <string name="terms_policy">By continuing, I confirm that I have read and agree to the Terms and conditions and Privacy policy</string>
+
+    <string name="move_ahead">Continue</string>
+
+    <string name="submit">Submit</string>
+
+    <string name="resend_otp">Resend code in</string>
+
+    <string-array name="country_codes">
+        <item>61,AU</item>
+        <item>1,CA</item>
+        <item>49,DE</item>
+        <item>33,FR</item>
+        <item>44,GB</item>
+        <item>91,IN</item>
+        <item>81,JP</item>
+        <item>94,LK</item>
+        <item>1,US</item>
+    </string-array>
+    <string name="title_activity_parking_locations">Map</string>
+
+    <string name="indian_phone_code">+91</string>
+
+    <string name="home">Home</string>
+
+    <string name="invite_friends">Invite friends</string>
+
+    <string name="my_bookings">My bookings</string>
+
+    <string name="settings">Settings</string>
+
+</resources>
